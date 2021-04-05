@@ -1,0 +1,15 @@
+title New Note in SPA
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over browser:
+Form e.preventDefault()
+Data is sent as JSON
+end note
+
+note over server:
+New Note is saved
+end note
+server-->browser: 201 Note created
+
+
+
